@@ -6,7 +6,16 @@
 
     <groupId>com.anotheria.net.jeka.bootcamp</groupId>
     <artifactId>concurrentaccsess</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>CorruptedData</module>
+        <module>CorruptedDataLock</module>
+        <module>CorruptedDataSynchronized</module>
+        <module>mapCrash</module>
+        <module>mapCrashSyncMap</module>
+        <module>mapCrashConcurrentMap</module>
+    </modules>
 
     <dependencies>
         <dependency>
